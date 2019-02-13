@@ -17,6 +17,8 @@ public class Prada {
 		}
 		mostrarColeccion(lista);
 
+		System.out.println();
+
 		HashSet<Integer> set = new HashSet<Integer>();
 		for (int i = 0; i < 100; i++) {
 			set.add(r.nextInt(100) + 1);
@@ -31,6 +33,7 @@ public class Prada {
 			if (i.hasNext())
 				System.out.print(numero + ", ");
 		}
+
 		System.out.println();
 		System.out.println("Numero de numeros hallados " + c.size());
 	}
