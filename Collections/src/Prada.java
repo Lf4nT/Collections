@@ -18,6 +18,9 @@ public class Prada {
 		mostrarColeccion(lista);
 
 		HashSet<Integer> set = new HashSet<Integer>();
+		for (int i = 0; i < 100; i++) {
+			set.add(r.nextInt(100) + 1);
+		}
 		mostrarColeccion(set);
 	}
 
